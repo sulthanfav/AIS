@@ -1,0 +1,93 @@
+body {
+    background: #555;
+    font-family: arial,sans-serif;
+}
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+    background: #ebebeb;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.login-header {
+    background: #333;
+    padding: 50px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login-container {
+    padding: 12px;
+}
+
+.login p {
+    margin: 0;
+    padding: 12px;
+}
+
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    margin-bottom: 12px;
+}
+
+.login input[id="username"],
+.login input[id="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+.login input[id="username"]:focus,
+.login input[id="password"]:focus {
+    border-color: #888;
+}
+
+.login input[type="submit"],
+.login input[type="reset"] {
+    background: #333;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover,
+.login input[type="reset"]:hover {
+    background: #17c;
+}
+
+.login input[type="submit"]:focus,
+.login input[type="reset"]:focus {
+    border-color: #05a;
+}
+
+.logo {
+    width: 40%;
+    padding-top: 1rem;
+    margin: 0 auto;
+    display: block;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
